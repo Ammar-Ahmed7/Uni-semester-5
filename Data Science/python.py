@@ -1,3 +1,5 @@
+import random
+
 
 #variables
 a=30
@@ -96,7 +98,75 @@ def myfunc():
   s="Wow"
 
 myfunc()  
-print("python is " + s) 
+print("python is " + s,'\n') 
+
+# Type Conversion
+
+x = 1
+y = 2.4
+z = 5j
+
+#convert from int to float:
+a = float(x)
+
+#convert from float to int:
+b = int(y)
+
+#convert from int to complex:
+c = complex(x)
+
+print(a)
+print(b)
+print(c)
+print('\n')
 
 
+#Import the random module, and display a random number between 1 and 9:
+print(random.randrange(1, 10))
+print('\n')
 
+#casting
+x = int(9)
+y= int(2.3)
+z= int("3")
+
+print(x,y,z)
+
+x=str('s1')
+y=str("7")
+z=str(3.4)
+
+print(x,y,z)
+print('\n')
+
+
+# String as Arrays
+a= "Hello World"
+print(a[1],a[5],a[6])
+print('\n')
+
+#Looping through String
+for x in "banana":
+  print(x)
+
+# String Length
+a = "Hello, World"
+print(len(a)) 
+print("\n") 
+
+# Check Text
+txt = "The best thing are free"
+print('free' in txt)
+
+txt = "The best things in life are free!"
+print("expensive" not in txt)
+print("\n") 
+
+# Check Text with if
+txt= "The best things are free"
+if "free" in txt:
+  print("ok boy")
+
+txt = "The best things in life are free!"
+if "expensive" not in txt:
+  print("No, 'expensive' is NOT present.")
