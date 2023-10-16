@@ -1,0 +1,4 @@
+
+This message is supposed to appear on stdout
+Simple printf for the first time.
+Simple printf for the second time

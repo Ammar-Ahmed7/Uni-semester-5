@@ -1,0 +1,2 @@
+This x line should be redirected to output file
+x boy yeah boy
